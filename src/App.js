@@ -5,6 +5,8 @@ import H2 from './Components/H2';
 import ListFunction from './Components/ListFunction';
 import Form from './Components/Form';
 
+import Calculator from './Components/CalculatorComponents/Calculator'
+
 function App() {
   return (
     <div className="App">
@@ -16,8 +18,12 @@ function App() {
         <ListFunction/>
 
         {/* Lesson Three */}
-        <H2 text="02) Forms"></H2>
+        <H2 text="03) Forms"></H2>
         <Form/>
+
+        {/* Lesson Four */}
+        <H2 text="04) Lift State Up"></H2>
+        <Calculator/>
     </div>
   );
 }
