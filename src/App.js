@@ -5,7 +5,9 @@ import H2 from './Components/H2';
 import ListFunction from './Components/ListFunction';
 import Form from './Components/Form';
 
-import Calculator from './Components/CalculatorComponents/Calculator'
+import Calculator from './Components/CalculatorComponents/Calculator';
+import HookTest from './Components/HookTest';
+import Counter from './Components/Counter';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
         {/* Lesson Four */}
         <H2 text="04) Lift State Up"></H2>
         <Calculator/>
+
+        {/* Lesson Five */}
+        <H2 text="04) Hooks"></H2>
+        <HookTest/>
+        <H2 text="05) Hooks effect"></H2>
+        <Counter/>
     </div>
   );
 }
